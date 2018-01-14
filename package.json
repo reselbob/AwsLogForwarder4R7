@@ -1,0 +1,21 @@
+{
+  "name": "AwsLogForwarder4R7",
+  "version": "0.0.5",
+  "description": "A logging forwarder for Rapid 7 and AWS Lambda",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "r7insight_node": "^1.8.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.1.0" 
+  },
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "author": "reselbob@gmail.com",
+  "license": "MIT"
+}

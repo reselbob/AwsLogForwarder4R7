@@ -26,14 +26,14 @@ Thus, in order to get `AWSLogForwarder4R7` to work in AWS Lambda, all the packag
 The following steps describe details for packaging and uploading `AWSLogForwarder4R7`.
 1. Create the Lambda function named, `AwsLogForwarder4R7`
 
-2. Zip up the `AWSLogForwarder4R7` pro ject code you installed locally using `npm install`. Make sure the file and directory structure of the zip file looks like the following:
+2. Zip up the `AWSLogForwarder4R7` project code you installed locally using `npm install`. Make sure the file and directory structure of the zip file looks like the following:
 
 ```$xslt
 index.js
  -- node_modules
 ```
 
-Where `node_modules` is the directory containing the dependency modules. **Do not** zip up the project directory. AWS Lambda wants to see `index.js` and `node_modules` in the root position..
+WHERE `node_modules` is the directory containing the dependency modules. **Do not** zip up the project directory. AWS Lambda wants to see `index.js` and `node_modules` in the root position..
 
 3. Upload the Zip file to the AWS Lambda function
 

@@ -16,6 +16,7 @@ These installation instructions assume you know the basics of installing node pa
 ## Preparing the project for upload to AWS Lambda
 
 Download this repository to your local machine
+
 Run:
 
 `npm install --only=production`

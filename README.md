@@ -28,6 +28,8 @@ The following steps describe details for packaging and uploading `AWSLogForwarde
 
 <img src="https://s3.amazonaws.com/awslogforwarder-4r7/create-lambda-01.png" />
 
+Make sure that the role you assign to the lambda function has full right to access CloudWatch Logs.
+
 2. Zip up the `AWSLogForwarder4R7` project code you installed locally using `npm install`.
 
 <img src="https://s3.amazonaws.com/awslogforwarder-4r7/zip-up-source-code-01.png" />

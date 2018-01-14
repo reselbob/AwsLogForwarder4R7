@@ -101,11 +101,11 @@ Please be advised that when I ran the test from within AWS Lambda, I did get a t
 
 # Use
 
-To test, do something in AWS that will write to the logstream you declared to be forwarded to InsightOps. The log entry should appear in InsightOps log associated witht he token you provided in the environment variable, `token`.
+To test, do something in AWS that will write to the logstream you declared to be forwarded to InsightOps. The log entry should appear in the InsightOps log associated with the token you provided in the environment variable, `token`.
 
 In the demonstration, we'll use a AWS Lambda that emits trivial data to the logstream in which we are streaming data onto the AWS Lambda that implements `AwsLogForwarder4R7`.
 
-1. Go the AWS Lambda the emits data to the logstream configured to stream data to `AwsLogForwarder4R7`.
+1. Go to the AWS Lambda the emits data to the log stream configured to stream data to `AwsLogForwarder4R7`.
 
 2. Run a test within the AWS Lambda
 

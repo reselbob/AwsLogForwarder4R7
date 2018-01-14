@@ -72,7 +72,7 @@ WHERE `node_modules` is the directory containing the dependency modules. **Do no
 <table>
 <tr>
 <td>
-Please be advised that when I ran the test from within AWS Lambda, I did get a timeout error. But, the logentry was sent onto InsightOps. I have not had any issues in general issues running outside of a test scenario. Still, I am researching the cause fot the timeout.
+Please be advised that when I ran the test from within AWS Lambda, I did get a timeout error. But, the log entry was sent onto InsightOps. I have not had any issues in general running outside of a test scenario. Still, I am researching the cause fot the timeout.
 </td>
 </tr>
 </table>

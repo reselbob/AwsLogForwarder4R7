@@ -1,6 +1,13 @@
 const  zlib = require('zlib');
 var Logger = require('r7insight_node');
 /*****************************************************
+This code expects that all the packages in node_modules, that are the result
+of the installing r7insight_node, are present in this Lambda's file
+system.
+
+You will need to zip up the the project after installed and upload the
+zip file to this Lambda. The details are in the ReadMe.
+
 You'll need to set an environment variable, token, that describes your
 access token that is associated with the InsightOps log to
 which the AWS CloudWatch log will be forwarded. Also, you need

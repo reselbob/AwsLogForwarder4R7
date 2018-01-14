@@ -1,9 +1,13 @@
 # AwsLogForwarder4R7
 A package for enabling log forwarding from AWS CloudWatch to Rapid7 InsightOps.
 
-The `AWSLogForwarder4R7` project is code that you use to create an AWS Lambda function. Once the AWS Lambda is created, you will configure an AWS CloudWatch logstream of interest to stream (forward) data being written on to the logstream on the Lambda. The Lambda, in turn, will send the log entry onto InsightOps.
+The `AWSLogForwarder4R7` project is code that you use within an AWS Lambda function, the purpose of which is to forward a log stream from CloudWatch onto Rapid 7/InsightOps. Once the AWS Lambda is created, you will configure an AWS CloudWatch log stream of interest to stream (forward) data being written on to the log stream on to that Lambda. The Lambda, in turn, will send the log entry onto InsightOps.
 
-The assumption in force is that those using the code have an account on Rapid 7 with access to InsightOps.
+The assumption in force is that those using the code have an account on Rapid 7 with access to InsightOps logs.
+
+Using AwsLogForwarder4R7 requires that you have the access token handy for the InsightOps logset that will be the target of the streaming from CloudWatch. The illustration below shows you where to find access tokens from the with the InsightOps log stream web page.
+
+<img src="https://s3.amazonaws.com/awslogforwarder-4r7/log-token-in-r7-01.png" />
 
 # Installation
 

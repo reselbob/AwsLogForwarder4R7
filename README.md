@@ -23,7 +23,13 @@ Run:
 4. Set the enviornment variables, `token` and `region`
 
 5. Create a Test event (optional)
-
+```$json
+{
+  "awslogs": {
+    "data": "gz Compressed Data Here"
+  }
+}
+```
 6. Run the Test (optional)
 
 # Configuring a CloudWatch logstream for forwarding

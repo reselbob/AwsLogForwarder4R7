@@ -1,5 +1,5 @@
 const  zlib = require('zlib');
-var Logger = require('r7insight_node');
+const Logger = require('r7insight_node');
 /*****************************************************
 This code expects that all the packages in node_modules, that are the result
 of the installing r7insight_node, are present in this Lambda's file

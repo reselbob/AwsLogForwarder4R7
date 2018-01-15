@@ -14,7 +14,7 @@ which the AWS CloudWatch log will be forwarded. Also, you need
 to set the environment variable, region, that describes the
 Rapid 7 Insight Ops log region. Region takes the value, us or en.
 *****************************************************/
-var logger = new Logger({ token: process.env.token , region: process.env.region})
+const logger = new Logger({ token: process.env.token , region: process.env.region})
 exports.handler = (event, context, callback) => {
     //make sure the data expected from AWS CloudWatch is present
     if(event.awslogs && event.awslogs.data){

@@ -5,7 +5,7 @@ This code expects that all the packages in node_modules, that are the result
 of the installing r7insight_node, are present in this Lambda's file
 system.
 
-You will need to zip up the the project after running the instal and
+You will need to zip up the the project after running the install and
 then upload the zip file to this Lambda. The details are in the ReadMe.
 
 You'll need to set an environment variable, token, that describes your

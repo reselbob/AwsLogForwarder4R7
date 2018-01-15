@@ -12,7 +12,7 @@ describe('Basic Tests: ', () => {
     it('Can run lambda', done => {
         const event = {
             "awslogs": {
-                "data": "H4sIAAAAAAAAADWQ3WqDQBCFX0WWXkbcf3e9E2rTQgolSm/SEFadBEHddDUNIeTdO03bq2XnHM7Md65kgGlyB6guRyAZecyrfPdalGW+LMiC+PMIAcdWUcs5k5JbjuPeH5bBn46oJO48Jb0b6tYlpbs8Q9/7X0c5B3ADWjhlJqEsYTLZPKzyqiirrahT6vTeWKmcBGcdAyFZ3dBmr5mrDUZMp3pqQnecOz8+df0MYSLZhqzuu37Ddyt/KMY5XN6Cb5DDB7K97y6+YJx/7FfStXiCEIaqVEtthBRM4U8LrTQzwgrGkc6galLFFVOK4sOtpTbVeMbcYUOzGxCWoWopt0wLZRf/zWF8WeXrKlrD5wmtL20W2RRq7ZyN9wZozBiksWlbiCFtVK1oo1ujonckQrYs+ivlYyS37e0b7Gf1dZIBAAA="
+                "data": "H4sIAAAAAAAAADWQ3Wq............."
             }
         };
         lambda.handler(event, context, function (err, data) {

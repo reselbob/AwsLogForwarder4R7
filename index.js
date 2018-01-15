@@ -11,8 +11,8 @@ then upload the zip file to this Lambda. The details are in the ReadMe.
 You'll need to set an environment variable, token, that describes your
 access token that is associated with the InsightOps log to
 which the AWS CloudWatch log will be forwarded. Also, you need
-to set the environment variable, region, that describes of the
-Rapid 7 Insight Ops log, usually us or en.
+to set the environment variable, region, that describes the
+Rapid 7 Insight Ops log region. Region takes the value, us or en.
 *****************************************************/
 var logger = new Logger({ token: process.env.token , region: process.env.region})
 exports.handler = (event, context, callback) => {
